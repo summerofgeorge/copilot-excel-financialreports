@@ -1,0 +1,15 @@
+FinancialReports in Copilot for Excel
+
+First select the actual plugin: in Excel's Copilot composer, choose + > Choose plugins, search for FinancialReports, then click its menu result. Confirm that the blue FinancialReports chip is attached to the prompt. Typing the name as ordinary text is not this selection step.
+
+1. Retrieve and inspect the filing
+
+Find Microsoft Corporation's fiscal 2025 Form 10-K or annual report. Retrieve consolidated revenue and operating income for fiscal years 2023, 2024 and 2025 from that report, in USD millions. Include the fiscal year end and report source link. Use this selected plugin; do not substitute web search or memory. Do not edit the workbook yet.
+
+Check that the response used FinancialReports tools and returned the right company, fiscal period, units and source. Review any tool approval before allowing it. Open the source and compare the figures with Microsoft's annual report before continuing.
+
+2. Build the worksheet in the same conversation
+
+Using the figures you just retrieved, fill B7:C9 on Analysis to match fiscal years A7:A9. Add Excel formulas in D7:D9 for operating income divided by revenue, and E8:E9 for year-over-year revenue growth; leave E7 blank because 2022 is not included. Format D7:E9 as percentages with one decimal. Fill B12:B15 with the report title, a clickable source link, the fiscal year end and today's retrieval date. Preserve the starter layout. Create a native clustered column chart of revenue and operating income for the three fiscal years below row 18, with USD millions in the title and red/charcoal series. Do not fetch other data.
+
+Check that percentage cells contain formulas, not typed results. FY2025 operating margin should round to 45.6% and revenue growth to 14.9%. FY2023 growth should be blank because 2022 revenue is absent. Change an input temporarily to check recalculation, then undo the change. Look under Data > Queries & Connections before assuming that a refreshable query exists.
