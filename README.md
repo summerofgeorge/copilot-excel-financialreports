@@ -1,6 +1,8 @@
 # FinancialReports in Copilot for Excel
 
-Reader files for the Stringfest Analytics walkthrough of the FinancialReports plugin inside Excel's Copilot pane.
+The hands-on example for the Stringfest Analytics guide, "What are plugins in Copilot for Excel, and what do they do?"
+
+FinancialReports is used because public filings make the connection and tool calls easy to demonstrate and check without a company's private systems. Ordinary Copilot web search may find the same public figures; this exercise illustrates how a plugin works, not why every public-data lookup needs one. Other integrations may add specialized tools, authorized private data or supported actions.
 
 ## Files
 
